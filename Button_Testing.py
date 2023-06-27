@@ -20,8 +20,7 @@ def main(page: ft.Page):
     page.add(button1, button2, button3)
 
 
-if __name__ == "__main__":
-    ft.app(target=main)
+ft.app(target=main)
 
 
 
